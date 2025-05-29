@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Harini-Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/9ff115da54.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="home">
+    <header>
+      <nav>
+        <div class="left">Harini's Portfolio</div>
+        <div class="right">
+          <ul id="sidemenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </div>
+      </nav>
+    </header>
+  </div>
+    <main>
+      <section class="firstsection">
+        <div class="leftsection">
+          Hi, My name is <span class="color">Harini</span>
+          <div>and I am passionate</div>
+          <div><span id="element"></span></div>
+          <div class="buttons">
+           <a href="images/harini's resume.pdf" download><button>Download Resume</button></a> 
+            <a href="https://github.com/Harini6068/Code"><button>Visit Github</button></a>
+          </div>
+        </div>
+        <div class="rightsection">
+          <img src="images/bg.png" alt="" />
+        </div>
+      </section>
+      <hr />
+      </section>
+      <!-- About -->
+      <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col1">
+              <img src="./images/woman.png" alt="" />
+            </div>
+            <div class="about-col2">
+              <h1>About Me</h1>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Nesciunt, maiores error nam quos repellendus alias sunt est
+                ratione commodi itaque ex et neque quibusdam dolore sapiente
+                maxime temporibus quidem tempora.
+              </p>
+              <div class="tab-titles">
+                <div class="tab-links active" onclick="opentab('skills')">
+                  Skills
+                </div>
+                <div class="tab-links" onclick="opentab('experience')">
+                  Experience
+                </div>
+                <div class="tab-links" onclick="opentab('education')">
+                  Education
+                </div>
+              </div>
+              <div class="tab-contents active-tab" id="skills">
+                <ul>
+                  <li>Web Development</li>
+                  <li>Python</li>
+                  <li>Problem Solving</li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="experience">
+                <ul>
+                  <li><span>2024</span><br />Internship-Slash Mark</li>
+                  <li><span>2023</span><br />Internship-Yhills</li>
+                  <li>
+                    <span>2021-2023</span><br />Hackthons,Workshops,Home Tution
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-contents" id="education">
+                <ul>
+                  <li>
+                    <span>Under Graduation</span><br />Stanley College of
+                    Engineering & Technology
+                  </li>
+                  <li><span>Intermediate</span><br />Sujatha Junior College</li>
+                  <li>
+                    <span>Secondary Education</span><br />Indian Public School
+                    of Excellence
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- Services -->
+      <div id="services">
+        <div class="container">
+          <h1 class="sub-title">My Services</h1>
+          <div class="services-list">
+            <div>
+              <i class="fa-solid fa-code"></i>
+              <h3>Web Development</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+                excepturi harum alias.
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-regular fa-file-code"></i>
+              <h3>Software Development</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+                excepturi harum alias reprehenderit'
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+            <div>
+              <i class="fa-brands fa-web-awesome"></i>
+              <h3>Programming</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint
+                excepturi harum alias reprehenderit'
+              </p>
+              <a href="#">Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <hr>
+      <!-- projects -->
+      <div id="projects">
+        <div class="container">
+          <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work work-1">
+              <img src="images/im1.png" alt="">
+              <div class="layer">
+                <h3>Responsive Landing Pages</h3>
+                <p>Lorem ipsum dolor sit amet Distinctio expedita, quae esse tempora voluptates eos voluptas velit incidunt neque facere.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work">
+              <img src="images/im2.png" alt="">
+              <div class="layer">
+                <h3>Resume Builder</h3>
+                <p>Lorem ipsum dolor sit amet Distinctio expedita, quae esse tempora voluptates eos voluptas velit incidunt neque facere.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+            <div class="work work-3">
+              <img src="images/im3.png" alt="">
+              <div class="layer">
+                <h3>Temperature Converter</h3>
+                <p>Lorem ipsum dolor sit amet Distinctio expedita, quae esse tempora voluptates eos voluptas velit incidunt neque facere.</p>
+                <a href="#"><i class="fa-solid fa-link"></i></a>
+              </div>
+            </div>
+          </div>
+          <a href="#" class="btn">See more</a>
+        </div>
+      </div>
+      <hr>
+      <!-- Contact -->
+      <div id="contact">
+        <div class="container">
+          <div class="row"> 
+          <div class="contact-left">
+            <h1>Contact Me</h1>
+             <p><i class="fa-solid fa-paper-plane"></i>harinigoud4@gmail.com</p>
+              <p><i class="fa-solid fa-phone"></i>9866068333</p>
+              <div class="social-icons">
+                <a href="https://www.linkedin.com/in/harini-goud-2502b3272"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://github.com/Harini6068/Code"><i class="fa-brands fa-github"></i></a>
+              </div>
+            </div>
+            <div class="contact-right">
+              <form name="submit-to-google-sheet">
+                <input type="text" name="Name" placeholder="Your Name" required>
+                <input type="text" name="Email" placeholder="Your Email" required>
+                <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                <button type="submit" class="btn1">Submit</button>
+              </form>
+              <span id="msg"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </main>
+    <footer>
+      <div class="flex">
+        <!-- <div class="footer-first">
+          <h4>Harini's Developer Portfolio</h4>
+        </div> -->
+        <!-- <div class="footer-second">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-third">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        <div class="footer-fourth">
+          <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </div> -->
+      <div class="footer-rights">
+        Copyright &#xA9; www.harini'sportfolio.com | All rights reserved
+      </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Software Developer", "Web Developer"],
+        typeSpeed: 50,
+      });
+      var tablinks = document.getElementsByClassName("tab-titles");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+    <script>
+      var sidemenu= document.getElementById("sidemenu");
+
+      function openmenu(){
+        sidemenu.style.right="0";
+      }
+      function closemenu(){
+        sidemenu.style.right="-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzoXJmrRXK9bZgmx6aE37GfcXy1sYSh0Fvm4xMpbnSpUr4luky3nPAnaevrbrHEo2CWGw/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg=document.getElementById("msg")
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML="Message sent successfully"
+            setTimeout(function(){
+              msg.innerHTML=""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
